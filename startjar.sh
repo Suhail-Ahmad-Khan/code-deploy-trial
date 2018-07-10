@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar hello.jar &
+java -jar /home/ubuntu/hello.jar &
