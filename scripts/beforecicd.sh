@@ -5,8 +5,8 @@ sudo su -c "apt-get update"
 sudo su -c "service codedeploy-agent start"
 #sudo su -c "cd /home/ubuntu/fundooNotes-microservices;
 #	    ./stopjar.sh"
-pid="$(`ps aux | grep hello.jar | awk '{print $2}'`)"
-sudo su -c "kill -9 $pid"
+#pid="$(`ps aux | grep hello.jar | awk '{print $2}'`)"
+sudo su -c "kill -9 $(`ps aux | grep hello.jar | awk '{print $2}'`)"
 sudo su -c "rm -rf /home/ubuntu/fundooNotes-microservices;
 	    rm -rf /home/ubuntu/hello.jar"
 
