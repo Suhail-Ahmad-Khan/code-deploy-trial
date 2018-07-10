@@ -9,6 +9,6 @@ public class HelloController {
  
     @RequestMapping("/")
     String home(ModelMap modal) {
-        return "Hello from Suhail and Satyendra";
+        return "Hello from Suhail";
     }
 }
