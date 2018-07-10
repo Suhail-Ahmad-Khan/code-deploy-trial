@@ -3,4 +3,4 @@
 
 pid=`ps aux | grep hello.jar | awk '{print $2}'`
 kill -9 $pid
-
+exit
