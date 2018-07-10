@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar executable.jar &
+java -jar hello.jar &
