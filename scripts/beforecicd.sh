@@ -3,8 +3,10 @@
 sudo su -c "apt-get install unzip"
 sudo su -c "apt-get update"
 sudo su -c "service codedeploy-agent start"
-sudo su -c "pid=`ps aux | grep hello.jar | awk '{print $2}'`;
-	    kill -9 $pid"
+sudo su -c "cd /home/ubuntu/fundooNotes-microservices;
+	    ./stopjar.sh"
+#sudo su -c "pid=`ps aux | grep hello.jar | awk '{print $2}'`;
+#	    kill -9 $pid"
 sudo su -c "rm -rf /home/ubuntu/fundooNotes-microservices;
 	    rm -rf /home/ubuntu/hello.jar"
 
