@@ -17,5 +17,5 @@ sudo su -c "rm -rf /home/ubuntu/$KEY"
 sudo su -c "cd /home/ubuntu/fundooNotes-microservices/target;
 	    mv springboot-helloworld-jar-code-deploy-0.0.1-SNAPSHOT.jar /home/ubuntu/hello.jar"
 sudo su -c "cd /home/ubuntu/fundooNotes-microservices;
-	    ./startjar.sh"
+	    ./startjar.sh; exit"
 
